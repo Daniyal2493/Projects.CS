@@ -12,3 +12,6 @@ While F is not connected
     add mincost edge not in F (So that F remains a forest)
 """
 
+def Kruskals(edge_file_name,start_vertex = 0):
+    G = Weighted_Graph(edge_file_name)
+    F = ({G.vertex_set()}, [])
